@@ -1,9 +1,13 @@
 # Simple hashicorp/raft usage example
-
-[![Build Status](https://travis-ci.org/alexander-akhmetov/raft-kv-example.svg?branch=master)](https://travis-ci.org/alexander-akhmetov/raft-kv-example)
-[![Go Report Card](https://goreportcard.com/badge/github.com/alexander-akhmetov/raft-kv-example)](https://goreportcard.com/report/github.com/alexander-akhmetov/raft-kv-example)
-
 This is a simple distributed in-memory key-value storage which has an HTTP interface and uses [hashicorp/raft](https://github.com/hashicorp/raft) internally.
+
+
+## [Change Log - July 07 2022]  Build Commands
+```shell
+go build -mod=mod # generates go.sum
+```
+
+# Continued..
 
 ## Why?
 
